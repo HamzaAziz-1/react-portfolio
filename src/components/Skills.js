@@ -30,35 +30,51 @@ export const Skills = () => {
 
   return (
     <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Game Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Mobile App Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>QA Testing</h5>
-                            </div>
-                        </Carousel>
-                    </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="skill-bx wow zoomIn">
+              <h2>Skills</h2>
+              <p>
+                Developed custom software solutions for clients on Fiverr,
+                including web applications and several other coding projects
+                resulting in a 5- star rating and Level 1 Seller status. Worked
+                with clients to understand their requirements and develop
+                solutions that met their needs and ensured timely delivery.
+                Utilized a range of programming languages, including React Js,
+                Node Js, Java, JavaScript, C++, MongoDB and MySQL
+              </p>
+              <Carousel
+                responsive={responsive}
+                infinite={true}
+                className="owl-carousel owl-theme skill-slider"
+              >
+                <div className="item">
+                  <img src={meter1} alt="text" />
+                  <h5>HTML CSS JS</h5>
                 </div>
+                <div className="item">
+                  <img src={meter3} alt="text" />
+                  <h5>MERN Stack</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="text" />
+                  <h5>Java</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="text" />
+                  <h5>Game Development</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="text" />
+                  <h5>Problem Solving</h5>
+                </div>
+              </Carousel>
             </div>
+          </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+      </div>
+      <img className="background-image-left" src={colorSharp} alt="text" />
     </section>
-  )
+  );
 }
