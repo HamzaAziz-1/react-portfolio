@@ -36,13 +36,12 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Developed custom software solutions for clients on Fiverr,
-                including web applications and several other coding projects
-                resulting in a 5- star rating and Level 1 Seller status. Worked
-                with clients to understand their requirements and develop
-                solutions that met their needs and ensured timely delivery.
-                Utilized a range of programming languages, including React Js,
-                Node Js, Java, JavaScript, C++, MongoDB and MySQL
+                Worked with clients to understand their requirements and develop
+                software solutions that met their needs and ensured timely
+                delivery resulting in a 5-star rating and Level 2 Seller status.
+                Utilized a range of technologies including Node.JS, React.JS
+                Java, JavaScript, C++, MongoDB, MySQL, PostgreSQL, AWS S3
+                Bucket, Google API's etc.
               </p>
               <Carousel
                 responsive={responsive}
