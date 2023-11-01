@@ -66,7 +66,7 @@ export const Projects = () => {
                     personal, and freelance projects, showcasing my versatility
                     and expertise as a software engineer. Throughout my journey,
                     I have worked with a wide range of technologies, including
-                    the MERN Stack, Firebase, Java, C++, AWS S3 Bucket,
+                    the MERN Stack, Firebase, Socket.io, Redux Toolkit, Java, C++, AWS S3 Bucket,
                     Cloudinary, Stripe, Google Maps Platform, Google OAuth, and
                     Google People API, among others. These technologies have
                     enabled me to create innovative solutions and deliver

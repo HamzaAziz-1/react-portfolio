@@ -87,6 +87,7 @@ export const Contact = () => {
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="text"
+                          required
                           value={formDetails.firstName}
                           placeholder="First Name"
                           onChange={(e) =>
@@ -97,7 +98,8 @@ export const Contact = () => {
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="text"
-                          value={formDetails.lasttName}
+                          value={formDetails.lastName}
+                          required
                           placeholder="Last Name"
                           onChange={(e) =>
                             onFormUpdate("lastName", e.target.value)
@@ -108,6 +110,7 @@ export const Contact = () => {
                         <input
                           type="email"
                           value={formDetails.email}
+                          required
                           placeholder="Email Address"
                           onChange={(e) =>
                             onFormUpdate("email", e.target.value)
@@ -118,6 +121,7 @@ export const Contact = () => {
                         <input
                           type="tel"
                           value={formDetails.phone}
+                          required
                           placeholder="Phone No."
                           onChange={(e) =>
                             onFormUpdate("phone", e.target.value)
@@ -128,6 +132,7 @@ export const Contact = () => {
                         <textarea
                           rows="6"
                           value={formDetails.message}
+                          required
                           placeholder="Message"
                           onChange={(e) =>
                             onFormUpdate("message", e.target.value)
@@ -139,17 +144,18 @@ export const Contact = () => {
                       </Col>
                     </Row>
                   </form>
-                  {status.message && (
-                    showMessage && (
-                      
-                      <Col>
+                  {status.message && showMessage && (
+                    <Col>
                       <h5 style={{ color: "white", paddingTop: "2em" }}>
                         {status.message}
                       </h5>
                     </Col>
-                      )
                   )}
-                  {showMessage && setTimeout(() => setShowMessage(false), 2000)}
+                  {showMessage &&
+                    setTimeout(() => {
+                      setShowMessage(false)
+                    }, 2000)
+                  }
                 </div>
               )}
             </TrackVisibility>
