@@ -11,37 +11,41 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Tour Explorer",
-      description: "MERN Stack Web App",
+      title: "Travel Now",
+      description: "A Multi-Vendor MERN Stack Web App",
       imgUrl: projImg1,
-      readMe: "https://github.com/HamzaAziz-1/tour-explorer",
+      code: "https://github.com/HamzaAziz-1/travel-now",
       demo: "https://tour-explorer.vercel.app/home",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Comfy Sloth",
+      description: "An E-commerce Store",
       imgUrl: projImg2,
+      code: "https://github.com/HamzaAziz-1/ReactJs/tree/main/ecommerce-project",
+      demo: "https://react-comfy-store-app.netlify.app",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Jobster",
+      description: "A React Jobs Dashboard",
       imgUrl: projImg3,
+      code: "https://github.com/HamzaAziz-1/jobster",
+      demo: "https://jobster-react-application.netlify.app",
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg1,
+    // },
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg2,
+    // },
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg3,
+    // },
   ];
 
   return (
