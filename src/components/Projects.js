@@ -15,7 +15,7 @@ export const Projects = () => {
       description: "A Multi-Vendor MERN Stack Web App",
       imgUrl: projImg1,
       code: "https://github.com/HamzaAziz-1/travel-now",
-      demo: "https://tour-explorer.vercel.app/home",
+      demo: "https://travel-now-client.vercel.app",
     },
     {
       title: "Comfy Sloth",
